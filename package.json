@@ -14,7 +14,8 @@
     "build": "npm run build:shared && npm run build:server && npm run build:client",
     "build:shared": "npm run build -w @grandmas-recipes/shared-schemas",
     "build:client": "npm run build -w client",
-    "build:server": "npm run build -w server"
+    "build:server": "npm run build -w server",
+    "start": "npm run start -w server"
   },
   "devDependencies": {
     "concurrently": "^9.0.0"

@@ -8,8 +8,8 @@ import {
   rateRecipe,
   toggleFavorite,
   getCategories
-} from '../controllers/recipeController';
-import { isAdmin, isAuthenticated } from '../middleware/auth';
+} from '../controllers/recipeController.js';
+import { isAdmin, isAuthenticated } from '../middleware/auth.js';
 
 const router = Router();
 

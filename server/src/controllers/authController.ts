@@ -1,6 +1,6 @@
 import { Request, Response } from 'express';
 import mongoose from 'mongoose';
-import { User } from '../models/User';
+import { User } from '../models/User.js';
 import { validate, RegisterSchema, LoginSchema } from '@grandmas-recipes/shared-schemas';
 
 export const register = async (req: Request, res: Response): Promise<void> => {

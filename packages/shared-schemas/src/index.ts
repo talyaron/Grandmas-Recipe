@@ -1,6 +1,6 @@
 // Simple validate function - use this!
-export { validate } from './validate';
-export type { ValidationResult } from './validate';
+export { validate } from './validate.js';
+export type { ValidationResult } from './validate.js';
 
 // User schemas
 export {
@@ -9,7 +9,7 @@ export {
   LoginSchema,
   type RegisterInput,
   type LoginInput,
-} from './user';
+} from './user.js';
 
 // Recipe schemas
 export {
@@ -22,4 +22,4 @@ export {
   type UpdateRecipeInput,
   type RateRecipeInput,
   type KosherType,
-} from './recipe';
+} from './recipe.js';

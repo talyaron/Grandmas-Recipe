@@ -1,6 +1,6 @@
 import { Request, Response } from 'express';
-import { Recipe } from '../models/Recipe';
-import { User } from '../models/User';
+import { Recipe } from '../models/Recipe.js';
+import { User } from '../models/User.js';
 import { validate, CreateRecipeSchema, UpdateRecipeSchema, RateRecipeSchema, RecipeIdSchema } from '@grandmas-recipes/shared-schemas';
 
 export const getAllRecipes = async (req: Request, res: Response): Promise<void> => {
